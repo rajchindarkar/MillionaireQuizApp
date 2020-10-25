@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_mainbg"
+    android:padding="@dimen/_10sdp"
+    tools:context=".ResultActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:textColor="@android:color/white"
+        android:text="Who is the prime minister of India?"
+        android:textSize="@dimen/_14ssp"
+        android:fontFamily="@font/sourcereg"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp"
+        android:paddingRight="@dimen/_40sdp"
+        android:paddingLeft="@dimen/_40sdp"
+        android:background="@drawable/ic_ques_bg"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtResult"
+        android:layout_margin="@dimen/_5sdp"
+
+        android:orientation="vertical">
+    <TextView
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/string_home"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/txtHome"
+        android:layout_width="@dimen/_250sdp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/options"
+        android:layout_margin="@dimen/_5sdp"/>
+    <TextView
+        android:layout_width="@dimen/_250sdp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/options"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/string_exit"
+        android:textSize="@dimen/_16ssp"
+        android:id="@+id/txtExit"
+        android:layout_margin="@dimen/_5sdp"/>
+    </LinearLayout>
+</RelativeLayout>

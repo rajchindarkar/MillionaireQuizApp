@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Who Wants To Be a Millionaire</string>
+    <string name="string_play">Start Game</string>
+    <string name="string_ques">10 Questions</string>
+    <string name="string_home">Go to home</string>
+    <string name="string_exit">Exit</string>
+</resources>
